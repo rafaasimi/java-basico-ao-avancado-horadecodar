@@ -65,6 +65,16 @@ public class Variavel {
         long populacaoMundial = 8_000_000_000L;
         System.out.println(populacaoMundial + 1);
 
+        // 8. Double
+        double preco = 19.99;
+        System.out.println(preco);
+        System.out.println(preco * 0.9);
+
+        double pi = 3.141_592_123;
+        System.out.println(pi);
+
+        double valorComD = 12.1D;
+        System.out.println(valorComD);
     }
 
 }
