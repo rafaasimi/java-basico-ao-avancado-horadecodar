@@ -53,6 +53,18 @@ public class Variavel {
         char codigoAscii = '\u0041';
         System.out.println(codigoAscii);
 
+        // 6. Int
+        int idade = 28;
+        System.out.println(idade);
+        System.out.println(idade + 2);
+        System.out.println(idade / 3);
+
+        // 7. Long
+        // L: Para forçar a criação da váriavel como long
+        // _: Para deixar mais legivel a leitura do número
+        long populacaoMundial = 8_000_000_000L;
+        System.out.println(populacaoMundial + 1);
+
     }
 
 }
