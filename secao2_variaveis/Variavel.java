@@ -42,6 +42,17 @@ public class Variavel {
 
         System.out.println(firstName + " " + lastName);
         System.out.println("O nome dele é: " + firstName);
+
+        // 5. Char
+        char letra = 'A';
+        System.out.println(letra);
+
+        char simbolo = '$';
+        System.out.println(simbolo);
+
+        char codigoAscii = '\u0041';
+        System.out.println(codigoAscii);
+
     }
 
 }
