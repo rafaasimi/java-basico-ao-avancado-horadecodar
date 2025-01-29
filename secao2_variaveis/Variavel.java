@@ -22,6 +22,20 @@ public class Variavel {
         // int numeroGrande2 = numeroGrande;
         System.out.println(numeroGrande);
 
+        // 3. Comentários
+
+        /*
+        Comentários em bloco
+        Linha 1
+        Linha 2
+        Linha 3
+         */
+        /**
+         * Comentários de documentação Função para somar números
+         *
+         * param1: Primeiro número param2: Segundo número return: Retorna a soma
+         * dos dois números
+         */
     }
 
 }
