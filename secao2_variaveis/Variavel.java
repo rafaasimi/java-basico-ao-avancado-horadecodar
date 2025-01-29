@@ -36,6 +36,12 @@ public class Variavel {
          * param1: Primeiro número param2: Segundo número return: Retorna a soma
          * dos dois números
          */
+        // 4. Strings
+        String firstName = "Rafael";
+        String lastName = "Simionato";
+
+        System.out.println(firstName + " " + lastName);
+        System.out.println("O nome dele é: " + firstName);
     }
 
 }
