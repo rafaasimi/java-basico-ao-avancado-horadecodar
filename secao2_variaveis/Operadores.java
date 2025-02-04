@@ -30,7 +30,7 @@ public class Operadores {
         // É o resto da divisão
         System.out.println(10 % 3);
 
-        // 10. Operadores Aritimeticos - Parte 1
+        // 10. Operadores Aritimeticos - Parte 2
         // Incremento
         int x = 5;
         x++;
