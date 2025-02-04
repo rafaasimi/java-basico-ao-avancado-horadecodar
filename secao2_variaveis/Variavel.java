@@ -75,6 +75,16 @@ public class Variavel {
 
         double valorComD = 12.1D;
         System.out.println(valorComD);
+
+        // 13. VAR
+        var z = 10;
+        System.out.println(z);
+
+        z = 5;
+        System.out.println(z);
+
+        var nome2 = "Rafael";
+        System.out.println(nome);
     }
 
 }
