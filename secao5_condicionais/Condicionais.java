@@ -11,6 +11,17 @@ public class Condicionais {
         System.out.println(isTrue);
         System.out.println(isFalse);
 
+        // 2. Operadores de Comparação
+        int x = 10;
+
+        System.out.println(x == 10);
+        System.out.println(x == 9);
+        System.out.println(x != 5);
+        System.out.println(x != 10);
+        System.out.println(x > 10);
+        System.out.println(x >= 10);
+        System.out.println(x < 10);
+        System.out.println(x <= 10);
     }
 
 }
