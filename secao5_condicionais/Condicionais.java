@@ -22,6 +22,19 @@ public class Condicionais {
         System.out.println(x >= 10);
         System.out.println(x < 10);
         System.out.println(x <= 10);
+
+        // 3. Comparação de Strings
+        String string1 = "Java";
+        String string2 = new String("Java");
+
+        System.out.println(string1);
+        System.out.println(string2);
+
+        System.out.println(string1 == string2);
+        System.out.println(string1 == "Java");
+
+        System.out.println(string1.equals(string2));
+        System.out.println(string1.equalsIgnoreCase(string2));
     }
 
 }
