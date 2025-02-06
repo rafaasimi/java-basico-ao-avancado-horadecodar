@@ -35,6 +35,26 @@ public class Condicionais {
 
         System.out.println(string1.equals(string2));
         System.out.println(string1.equalsIgnoreCase(string2));
+
+        // 5. If
+        int numero = 10;
+
+        // Baseado em uma comparação, executamos algo
+        if (numero > 5) {
+            System.out.println("Sim, o número é maior que 5");
+        } else {
+            System.out.println("Não, o número não é maior que 5");
+        }
+
+        // If com strings
+        String texto = "Teste";
+
+        if (texto.equals("Teste")) {
+            System.out.println("É igual");
+        } else {
+            System.out.println("Não é igual");
+        }
+
     }
 
 }
