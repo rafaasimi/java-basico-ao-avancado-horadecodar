@@ -55,6 +55,15 @@ public class Condicionais {
             System.out.println("Não é igual");
         }
 
+        // 6. Else
+        int q = 7;
+
+        if (q > 10) {
+            System.out.println("Q é maior que 10");
+        } else {
+            System.out.println("Q é menor que 10");
+        }
+
     }
 
 }
