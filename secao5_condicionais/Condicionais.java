@@ -64,6 +64,19 @@ public class Condicionais {
             System.out.println("Q é menor que 10");
         }
 
+        // 7. Else if
+        double nota = 8.5;
+
+        if (nota == 10) {
+            System.out.println("Você tirou a nota máxima!");
+        } else if (nota >= 9) {
+            System.out.println("Nota muito boa!");
+        } else if (nota >= 7) {
+            System.out.println("Acima da média.");
+        } else {
+            System.out.println("Abaixo da média.");
+        }
+
     }
 
 }
