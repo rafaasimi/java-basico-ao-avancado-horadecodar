@@ -16,6 +16,23 @@ public class OperadoresLogicos {
             System.out.println("Não pode dirigir!");
         }
 
+        // 9. OR
+        boolean estaChovendo = true;
+        boolean temGuardaChuva = false;
+
+        System.out.println(estaChovendo || temGuardaChuva);
+
+        int idade2 = 16;
+        boolean ehMembro = true;
+
+        // Usuário pode participar do clube
+        // Precisa ter > 16 anos ou ser membro
+        if (idade2 > 16 || ehMembro) {
+            System.out.println("Você pode entrar");
+        } else {
+            System.out.println("Você não pode entrar");
+        }
+
     }
 
 }
