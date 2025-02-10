@@ -33,6 +33,13 @@ public class OperadoresLogicos {
             System.out.println("Você não pode entrar");
         }
 
+        // 10. NOT
+        System.out.println(estaChovendo);
+        System.out.println(!estaChovendo);
+
+        System.out.println(estaChovendo || temGuardaChuva);
+        System.out.println(!estaChovendo || temGuardaChuva);
+
     }
 
 }
