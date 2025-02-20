@@ -11,6 +11,22 @@ public class CondicionaisAvancadas {
 
         System.out.println(resultado);
 
+        // 2. If
+        int idade = 28;
+        boolean temCarteira = true;
+
+        if (idade >= 18) {
+
+            if (temCarteira) {
+                System.out.println("Pode dirigir!");
+            } else {
+                System.out.println("Precisa ter habilitação.");
+            }
+
+        } else {
+            System.out.println("Você não pode dirigir ainda.");
+        }
+
     }
 
 }
