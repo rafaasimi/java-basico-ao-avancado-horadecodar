@@ -27,6 +27,27 @@ public class CondicionaisAvancadas {
             System.out.println("Você não pode dirigir ainda.");
         }
 
+        // 3. Precedência de Operadores Lógicos
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+
+        // TRUE AND FALSE -> FALSE OR TRUE -> TRUE
+        boolean resultado2 = a && b || c;
+        System.out.println(resultado2);
+
+        // TRUE OR FALSE -> TRUE AND TRUE -> TRUE
+        boolean resultado3 = a || b && c;
+        System.out.println(resultado3);
+
+        // NOT(TRUE OR FALSE) -> FALSE AND TRUE -> FALSE
+        boolean resultado4 = !(a || b) && c;
+        System.out.println(resultado4);
+
+        // FALSE OR FALSE -> FALSE AND TRUE -> FALSE
+        boolean resultado5 = (!a || b) && c;
+        System.out.println(resultado5);
+
     }
 
 }
