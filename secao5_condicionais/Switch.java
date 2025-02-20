@@ -8,7 +8,7 @@ public class Switch {
         // Avaliar o dia de semana baseado no numero
         // 1 = Domingo
         // 7 = Sabado
-        int diaDaSemana = 1;
+        int diaDaSemana = 8;
 
         switch (diaDaSemana) {
             case 1 ->
@@ -25,6 +25,8 @@ public class Switch {
                 System.out.println("Sexta");
             case 7 ->
                 System.out.println("Sábado");
+            default ->
+                System.out.println("Dia da semana não existe");
         }
 
         //   switch (diaDaSemana) {
