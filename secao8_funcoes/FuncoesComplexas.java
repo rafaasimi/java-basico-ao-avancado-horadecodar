@@ -15,8 +15,11 @@ public class FuncoesComplexas {
         System.out.println(obterDiaDaSemana(5));
 
         // 7. System.exit
-        verificarAutenticacao("teste", "testando");
+        // verificarAutenticacao("teste", "testando");
         verificarAutenticacao("admin", "123");
+
+        // 8. Documentação
+        System.out.println(calcularMedia(5, 6, 7));
     }
 
     public static String verificarAcesso(int idade, boolean temCarteira, boolean temHistoricoNegativo) {
@@ -63,6 +66,17 @@ public class FuncoesComplexas {
 
         System.out.println("Acesso permitido.");
 
+    }
+
+    /**
+     * Calcula a média de três números inteiros
+     * @param nota1 Primeira nota a ser enviada
+     * @param nota2 Segunda nota a ser enviada
+     * @param nota3 Terceira nota a ser enviada
+     * @return A média dos três números
+     */
+    public static double calcularMedia(double nota1, double nota2, double nota3) {
+        return nota1 + nota2 + nota3 / 3;
     }
 
 }
