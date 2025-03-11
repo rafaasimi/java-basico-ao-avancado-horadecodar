@@ -13,6 +13,10 @@ public class FuncoesComplexas {
 
         // 6. Funções com switch
         System.out.println(obterDiaDaSemana(5));
+
+        // 7. System.exit
+        verificarAutenticacao("teste", "testando");
+        verificarAutenticacao("admin", "123");
     }
 
     public static String verificarAcesso(int idade, boolean temCarteira, boolean temHistoricoNegativo) {
@@ -47,6 +51,17 @@ public class FuncoesComplexas {
             default:
                 return "Dia da semana inválido.";
         }
+
+    }
+
+    public static void verificarAutenticacao(String usuario, String senha) {
+
+        if (!usuario.equals("admin") && !senha.equals("123")) {
+            System.out.println("Acesso negado.");
+            System.exit(1);
+        }
+
+        System.out.println("Acesso permitido.");
 
     }
 
