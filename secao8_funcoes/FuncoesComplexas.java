@@ -10,6 +10,9 @@ public class FuncoesComplexas {
 
         String resultado2 = verificarAcesso(19, true, true);
         System.out.println(resultado2);
+
+        // 6. Funções com switch
+        System.out.println(obterDiaDaSemana(5));
     }
 
     public static String verificarAcesso(int idade, boolean temCarteira, boolean temHistoricoNegativo) {
@@ -20,6 +23,29 @@ public class FuncoesComplexas {
             return "Acesso negado. Histório negativo.";
         } else {
             return "Acesso negado. Critérios não atendidos.";
+        }
+
+    }
+
+    public static String obterDiaDaSemana(int dia) {
+
+        switch (dia) {
+            case 1:
+                return "Segunda-feira";
+            case 2:
+                return "Terça-feira";
+            case 3:
+                return "Quarta-feira";
+            case 4:
+                return "Quinta-feira";
+            case 5:
+                return "Sexta-feira";
+            case 6:
+                return "Sábado";
+            case 7:
+                return "Domingo";
+            default:
+                return "Dia da semana inválido.";
         }
 
     }
