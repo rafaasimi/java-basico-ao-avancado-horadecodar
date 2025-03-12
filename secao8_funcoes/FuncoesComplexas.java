@@ -2,6 +2,9 @@ package secao8_funcoes;
 
 public class FuncoesComplexas {
 
+    // Escopo global
+    static int globalVar = 20;
+
     public static void main(String[] args) {
 
         // 5. Funções com condicionais
@@ -20,6 +23,18 @@ public class FuncoesComplexas {
 
         // 8. Documentação
         System.out.println(calcularMedia(5, 6, 7));
+
+        // 9. Escopos
+        // Escopo local
+        int localVar = 10;
+
+        if(true) {
+            System.out.println(localVar);
+        }
+
+        System.out.println(globalVar);
+
+        escopoLocal();
     }
 
     public static String verificarAcesso(int idade, boolean temCarteira, boolean temHistoricoNegativo) {
@@ -77,6 +92,10 @@ public class FuncoesComplexas {
      */
     public static double calcularMedia(double nota1, double nota2, double nota3) {
         return nota1 + nota2 + nota3 / 3;
+    }
+
+    public static void escopoLocal() {
+        System.out.println(globalVar);
     }
 
 }
