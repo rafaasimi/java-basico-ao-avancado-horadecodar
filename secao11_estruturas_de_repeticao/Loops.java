@@ -48,9 +48,23 @@ public class Loops {
     // System.out.println("Infinito!");
     // }
 
-    for (int j = 0; j <= 5; j--) {
-      System.out.println("Contagem: " + j);
-    }
+    // for (int j = 0; j <= 5; j--) {
+    // System.out.println("Contagem: " + j);
+    // }
+
+    // 4. Do While
+    int j = 10;
+    do {
+      System.out.println("Contagem regressiva: " + j);
+      j--;
+    } while (j > 0);
+
+    int numero = 0;
+    do {
+      numero = (int) (Math.random() * 10);
+      System.out.println("Valor aleatório: " + numero);
+    } while (numero != 1);
+
   }
 
 }
