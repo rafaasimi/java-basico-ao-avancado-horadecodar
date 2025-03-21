@@ -27,6 +27,22 @@ public class Loops {
     }
 
 
+    // 2. While
+    // Loop que irá rodar de 1 a 5
+    int contador = 1;
+    while(contador <= 5) {
+      System.out.println("While Contador: " + contador);
+
+      contador++;
+    }
+
+    // Não sabemos a quantidade de execuções
+    // Enquanto o valor for diferente de 7, execute
+    int valor = 0;
+    while(valor != 7) {
+      valor = (int)(Math.random() * 10);
+      System.out.println("Valor aleatório: " + valor);
+    }
   }
 
 }
