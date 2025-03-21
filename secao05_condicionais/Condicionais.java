@@ -1,4 +1,4 @@
-package secao5_condicionais;
+package secao05_condicionais;
 
 public class Condicionais {
 

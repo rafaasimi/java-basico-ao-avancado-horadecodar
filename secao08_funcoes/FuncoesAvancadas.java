@@ -1,4 +1,4 @@
-package secao8_funcoes;
+package secao08_funcoes;
 
 import java.util.Arrays;
 import java.util.List;

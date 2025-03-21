@@ -6,7 +6,7 @@
 // >= 18.5 e <= 24.9 => Peso normal
 // >= 25 e < 29.9 => Sobrepeso
 // Mais que isso: obesidade
-package secao6_calculadora_imc;
+package secao06_calculadora_imc;
 
 import java.util.Scanner;
 

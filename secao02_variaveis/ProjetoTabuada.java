@@ -1,4 +1,4 @@
-package secao2_variaveis;
+package secao02_variaveis;
 
 import java.util.Scanner;
 

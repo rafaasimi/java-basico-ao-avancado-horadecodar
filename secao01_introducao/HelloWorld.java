@@ -1,4 +1,4 @@
-package secao1_introducao;
+package secao01_introducao;
 
 public class HelloWorld {
 

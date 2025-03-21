@@ -1,4 +1,4 @@
-package secao9_conversor_temperatura;
+package secao09_conversor_temperatura;
 
 import java.util.Scanner;
 

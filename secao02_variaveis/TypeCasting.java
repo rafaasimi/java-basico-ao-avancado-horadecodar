@@ -1,4 +1,4 @@
-package secao2_variaveis;
+package secao02_variaveis;
 
 public class TypeCasting {
 

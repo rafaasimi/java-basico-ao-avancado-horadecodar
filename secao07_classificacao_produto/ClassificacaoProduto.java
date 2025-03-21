@@ -8,7 +8,7 @@
 // Exibir classificação
 // Classificações: preco < 50 = barato, 50 a 100 = moderado, maior que 100 = caro
 // Exibir no fim nome do produto e preço
-package secao7_classificacao_produto;
+package secao07_classificacao_produto;
 
 import java.util.Scanner;
 

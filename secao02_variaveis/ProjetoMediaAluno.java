@@ -1,4 +1,4 @@
-package secao2_variaveis;
+package secao02_variaveis;
 
 // Obter o nome do aluno e 3 notas
 import java.util.Scanner;
