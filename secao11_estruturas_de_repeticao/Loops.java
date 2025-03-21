@@ -26,11 +26,10 @@ public class Loops {
       System.out.println("Contagem regressiva: " + i);
     }
 
-
     // 2. While
     // Loop que irá rodar de 1 a 5
     int contador = 1;
-    while(contador <= 5) {
+    while (contador <= 5) {
       System.out.println("While Contador: " + contador);
 
       contador++;
@@ -39,9 +38,18 @@ public class Loops {
     // Não sabemos a quantidade de execuções
     // Enquanto o valor for diferente de 7, execute
     int valor = 0;
-    while(valor != 7) {
-      valor = (int)(Math.random() * 10);
+    while (valor != 7) {
+      valor = (int) (Math.random() * 10);
       System.out.println("Valor aleatório: " + valor);
+    }
+
+    // 3. Loop infinito
+    // while (true) {
+    // System.out.println("Infinito!");
+    // }
+
+    for (int j = 0; j <= 5; j--) {
+      System.out.println("Contagem: " + j);
     }
   }
 
