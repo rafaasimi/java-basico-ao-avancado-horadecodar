@@ -65,6 +65,17 @@ public class Loops {
       System.out.println("Valor aleatório: " + numero);
     } while (numero != 1);
 
+    // 5. Break
+    // Break pode ser utilizado com qualquer estrutura de loop
+    for(int i = 0; i < 10; i++) {
+      System.out.println("Contador: " + i);
+
+      if(i == 5) {
+        System.out.println("Parando o loop");
+        break;
+      }
+    }
+
   }
 
 }
