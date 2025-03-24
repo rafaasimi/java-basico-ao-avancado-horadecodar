@@ -89,6 +89,25 @@ public class Loops {
 
     }
 
+    // 7. Nested Loops
+    for(int x = 1; x <= 3; x++) {
+
+      System.out.println("EXTERNO");
+
+      for(int y = 1; y <= 3; y++) {
+        System.out.println(x + "x" + y + "=" + (x * y));
+      }
+    }
+
+    // Padrão de estrelas
+    for(int o = 1; o <= 5; o++) {
+      for(int p = 1; p <= o; p++) {
+        System.out.print("*");
+      }
+
+      System.out.println();
+    }
+
   }
 
 }
