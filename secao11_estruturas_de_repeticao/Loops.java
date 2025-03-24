@@ -67,13 +67,26 @@ public class Loops {
 
     // 5. Break
     // Break pode ser utilizado com qualquer estrutura de loop
-    for(int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {
       System.out.println("Contador: " + i);
 
-      if(i == 5) {
+      if (i == 5) {
         System.out.println("Parando o loop");
         break;
       }
+    }
+
+    // 6. Continue
+    // Interrompe o loop e continua a próxima execução
+    for (int i = 10; i > 0; i--) {
+
+      if (i % 2 == 0) {
+        System.out.println("Par");
+        continue;
+      }
+
+      System.out.println("Contador: " + i);
+
     }
 
   }
