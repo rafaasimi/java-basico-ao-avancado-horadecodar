@@ -37,6 +37,14 @@ public class LoopsOutros {
 
     }
 
+    // 9. Off By One
+    int[] numeros = {1, 2, 3, 4};
+
+    // Executar 5 vezes -> irá acessar elemento inválido
+    for(int i = 0; i <= 5; i++) {
+      System.out.println("i: " + numeros[i]);
+    }
+
   }
 
 }
