@@ -23,6 +23,30 @@ public class Listas {
     System.out.println(frutas[0]);
     System.out.println(frutas[1]);
     System.out.println(frutas[2]);
+
+    // 2. Loops em arrays
+    int soma = 0;
+    for(int i = 0; i < numeros.length; i++) {
+      soma += numeros[i];
+    }
+    System.out.println("A soma do array de números é: " + soma);
+
+    
+    for (String fruta : frutas) {
+      System.out.println("A fruta da vez é: " + fruta);
+    }
+
+    // Encontrar o maior valor de um array
+    int[] valores = {10, 25, 8, 22, 1};
+    int maiorValor = valores[0];
+
+    int j = 0;
+    while (j < valores.length) {
+      maiorValor = Math.max(maiorValor, valores[j]);
+      j++;
+    }
+
+    System.out.println("O maior valor do array é: " + maiorValor);
   }
 
 }
