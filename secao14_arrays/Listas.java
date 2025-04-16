@@ -73,6 +73,40 @@ public class Listas {
       }
     }
 
+    // 4. Loops com if
+    // Filtrar e somar numeros pares
+    int somaPares = 0;
+
+    for (int numero : numeros) {
+      if (numero % 2 == 0) {
+        somaPares += numero;
+      }
+    }
+
+    System.out.println("Soma dos números pares: " + somaPares);
+
+    // Exibir valores maiores que um determinado valor
+    int[] nums = { 12, 6, 18, 24, 48, 5 };
+    int limite = 10;
+
+    for (int num : nums) {
+      if (num > limite) {
+        System.out.println("O número " + num + " é maior que " + limite);
+      }
+    }
+
+    String[] linguagens = { "Java", "C", "Python", "PHP" };
+    String linguagemAlvo = "Python";
+
+    for (String linguagem : linguagens) {
+      if (linguagem.equals(linguagemAlvo)) {
+        System.out.println("A linguagem " + linguagem + " foi encontrada.");
+        break;
+      } else {
+        System.out.println("Linguagem ainda não encontrada.");
+      }
+    }
+
   }
 
 }
