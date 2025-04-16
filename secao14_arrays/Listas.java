@@ -107,6 +107,31 @@ public class Listas {
       }
     }
 
+    // 5. Atualizar valores
+    for (int i = 0; i < numeros.length; i++) {
+      numeros[i] = numeros[i] * 2;
+    }
+
+    for (int numero : numeros) {
+      System.out.println("Numero dobrado: " + numero);
+    }
+
+    for(int i = 0; i < frutas.length; i++) {
+      if(frutas[i].equals("Banana")) {
+        frutas[i] = "Abacate";
+      }
+    }
+
+    System.out.println(frutas[0]);
+
+    for(int numero : numeros) {
+      numero *= 2;
+    }
+
+    for(int numero : numeros) {
+      System.out.println("Numero dobrado: " + numero);
+    }
+
   }
 
 }
